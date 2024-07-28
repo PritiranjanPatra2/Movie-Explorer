@@ -1,0 +1,38 @@
+/* src/styles/About.css */
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    font-family: 'Arial, sans-serif';
+}
+
+.about-section, .team-section, .contact-section {
+    background-color: #f8f8f8;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.about-section h1, .team-section h2, .contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.about-section p, .team-section p, .contact-section p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-section a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-section a:hover {
+    color: #0056b3;
+}
